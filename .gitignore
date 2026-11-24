@@ -1,0 +1,24 @@
+# Internal references, prototypes, and screenshots
+desain/
+*.md
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Dependencies and build artifacts
+node_modules/
+.vercel/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor artifacts
+.DS_Store
+**/.DS_Store
+*.log
+npm-debug.log*
+.idea/
+.vscode/

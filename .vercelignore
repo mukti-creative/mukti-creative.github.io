@@ -1,0 +1,34 @@
+# Files that must never be deployed or served publicly.
+
+# Design references, exported prototypes, screenshots
+desain
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+
+# Notes, prompts, docs
+*.md
+notes
+prompts
+*.prompt
+
+# Secrets and OS/editor junk
+.env
+.env.*
+.DS_Store
+**/.DS_Store
+*.log
+.idea
+.vscode
+
+# Build tooling (the compiled CSS in assets/css is what ships)
+src
+node_modules
+package.json
+package-lock.json
+tailwind.config.cjs
+
+# VCS
+.git
+.gitignore

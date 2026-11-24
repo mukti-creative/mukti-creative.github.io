@@ -1,0 +1,13 @@
+{
+  "name": "mukti-creative-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mukti Creative landing page — static site",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.cjs -i src/input.css -o assets/css/tailwind.min.css --minify"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.0",
+    "tailwindcss": "3.4.17"
+  }
+}
